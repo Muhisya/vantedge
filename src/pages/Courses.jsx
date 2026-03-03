@@ -39,6 +39,7 @@ const Courses = () => {
               <span className="text-[10px] font-bold text-white uppercase ring-1 ring-inset ring-[#8E977D] bg-[#8E977D] rounded-full py-1 px-3 tracking-widest">{course.genre}</span>
               <h3 className="text-xl font-bold mt-4 mb-2">{course.title}</h3>
               <p className="text-slate-500 text-sm mb-6">{course.description}</p>
+              <span className="text-[10px] font-semibold text-slate-500 uppercase bg-slate-200 ring-1 ring-inset ring-slate-400 rounded-full py-1 px-3 tracking-widest">{course.level}</span>
             </div>
           </Link>
         ))}

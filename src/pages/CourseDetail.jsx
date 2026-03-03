@@ -9,7 +9,7 @@ const CourseDetail = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
-      <Link to="/courses" className="text-white font-bold bg-black rounded-full py-2 px-6 text-sm hover:bg-[#8E977D] tracking-tight">← BACK TO PROGRAMS</Link>
+      <Link to="/courses" className="text-white font-bold bg-black rounded-full py-2 px-6 text-sm hover:bg-[#8E977D] tracking-tight transition-all">← BACK TO PROGRAMS</Link>
       <h1 className="text-5xl font-black mt-8 mb-6 tracking-tighter">{course.title}</h1>
       <p className="text-xl text-slate-600 leading-relaxed mb-12">{course.fullDescription}</p>
       
